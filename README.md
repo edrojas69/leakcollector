@@ -2,6 +2,8 @@
 
 LeakCollector es una herramienta en python3 el cual integra la conocida herramienta [**pwndb**](https://github.com/davidtavarez/pwndb) con la API de [**haveibeenpwned**](https://haveibeenpwned.com/API/Key) para la búsqueda y asociación de Data Leaks y Data Breachs
 
+> Note: Debes configurar el API Key de haveibeenpwned previamente, esta debe ser comprada en https://haveibeenpwned.com/API/Key, esta se encuentra en la linea 12 "api_key     =   'API HERE!' # Change here!"
+
 ## **Uso**
 
 Para utilizar la herramienta de debe especificar el target a buscar, puede ser un correo o un dominio.
